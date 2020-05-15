@@ -1,7 +1,7 @@
-/* normalize */
+/* normalize スペース0*/
 body { margin: 0; }
 
-/* global styles */
+/* global styles *//* global styles  ビデオの横幅を画面いっぱいに*/
 video {
   background-color: #111;
   width: 100%;
@@ -28,7 +28,7 @@ video {
   width: 980px;
 }
 
-/* p2p-media styles */
+/* p2p-media styles 横に揃える、垂直方向中央部に揃える、積み重なるように配置する*/
 .p2p-media {
   display: flex;
   align-items: center;
@@ -40,10 +40,10 @@ video {
 }
 
 .p2p-media .local-stream {
-  width: 30%;
+  width: 50%;
 }
 
-/* p2p-data styles */
+/* p2p-data styles その要素は Grid Layout の コンテナ,列のトラックの幅を半角スペースで区切って指定,fr:残りの幅*/
 .p2p-data {
   display: grid;
   grid-template-columns: 30% 1fr;
